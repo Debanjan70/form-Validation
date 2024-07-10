@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registration</h1>
+      <form action="#">
+        <div class="input-icon">
+          <label for="">Full Name</label>
+          <input
+            type="text"
+            id="name-value"
+            class="input-feild"
+            placeholder="Enter Your Name"
+          />
+          <span id="name-error" class="error"></span>
+        </div>
+
+        <div class="input-icon">
+          <label for="">Email</label>
+          <input
+            type="email"
+            id="email-value"
+            class="input-feild"
+            placeholder="Enter Your Email"
+          />
+          <span id="email-error" class="error"></span>
+        </div>
+
+        <div class="input-icon">
+          <label for="">Password</label>
+          <input
+            type="password"
+            id="pwd-value"
+            class="input-feild"
+            placeholder="Enter Your Password"
+          />
+          <span id="pwd-error" class="error"></span>
+        </div>
+
+        <div class="input-icon">
+          <label for="">Mobile Number</label>
+          <input
+            type="tel"
+            id="number-value"
+            class="input-feild"
+            placeholder="Enter Your Number"
+          />
+          <span id="number-error" class="error"></span>
+        </div>
+
+        <div class="input-icon">
+          <label for="">Gender</label>
+          <select name="" id="gender">
+            <option selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <span id="gender-error" class="error"></span>
+        </div>
+
+        <div class="input-icon">
+          <label for="">Occupation</label>
+          <div class="logo">
+            <input
+              type="text"
+              id="occ-value"
+              class="input-feild"
+              placeholder="Enter Your Occupation"
+            />
+            <!-- <img
+              src="https://www.achieversit.com/assets/images/logo-white.png"
+              alt=""
+            /> -->
+          </div>
+          <span id="occ-error" class="error"></span>
+        </div>
+
+        <button type="submit" id="btn">Submit</button>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
